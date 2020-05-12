@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/kebun0"
+        android:title="Lokasi Saya" />
+    <item android:id="@+id/kebun1"
+        android:title="Taman Safari Bogor" />
+    <item android:id="@+id/kebun2"
+        android:title="Kebun Binatang Ragunan" />
+    <item android:id="@+id/kebun3"
+        android:title="Kebun Binatang Batu" />
+    <item android:id="@+id/kebun4"
+        android:title="Kebun Binatang Surabaya" />
+    <item android:id="@+id/kebun5"
+        android:title="Kebun Binatang Gembira Loka" />
+    <item android:id="@+id/kebun6"
+        android:title="Kebun Binatang Bandung" />
+
+</menu>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="638dp" >
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/rules" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="14dp"
+            android:text="Peraturan !" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Peraturan Yang Harus Ditepati Saat Berkunjung Ke Kebun Binatang Indonesia"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By zootan 25/12/2017"
+            android:layout_below="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_marginTop="10dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="800dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="339dp"
+                android:text=" 1. Dilarang Memberi Makan Satwa"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView11"
+                android:layout_alignTop="@+id/textView11"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="20dp"
+                android:text="Makanan pemberian pengunjung dapat mengganggu pencernaan dan selera makan hingga menularkan penyakit ke satwa." />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView11"
+                android:layout_below="@+id/textView12"
+                android:layout_marginTop="20dp"
+                android:text="2. Jaga Kebersihan Kandang Satwa"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView12"
+                android:layout_below="@+id/textView13"
+                android:text="Dilarang melempar benda apapun ke dalam kandang, karena satwa bisa menganggapnya sebagai makanan lalu ditelan." />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView13"
+                android:layout_below="@+id/textView14"
+                android:layout_marginTop="15dp"
+                android:text="3. Hindari Kontak Langsung dengan Hewan"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView14"
+                android:layout_below="@+id/textView15"
+                android:text="Demi keamanan, pengunjung dilarang berinteraksi langsung dengan beberapa jenis satwa karena bisa membahayakan keselamatan." />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView15"
+                android:layout_below="@+id/textView17"
+                android:layout_marginTop="12dp"
+                android:text="4. Jangan Menggoda Satwa Saat Tidur"
+                android:textAlignment="viewStart"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView17"
+                android:layout_below="@+id/textView19"
+                android:text="Sebagian besar satwa adalah hewan nocturnal, menggoda mereka saat siang hari bisa mengganggu jam istirahat satwa." />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView19"
+                android:layout_below="@+id/textView20"
+                android:layout_marginTop="11dp"
+                android:text="5. Lihatlah Satwa dengan Tertib"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView20"
+                android:layout_below="@+id/textView24"
+                android:text="Satwa dapat mengalami tekanan stres akibat hiruk pikuk banyaknya pengunjung di dekat kandang mereka." />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView24"
+                android:layout_below="@+id/textView25"
+                android:layout_marginTop="11dp"
+                android:text="6. Jangan Apatis"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+    </ScrollView>

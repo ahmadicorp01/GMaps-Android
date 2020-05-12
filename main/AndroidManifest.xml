@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.irfpero.mapamap">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA9fU2DSaX8ZdhaCT8MkZLCyyXJ21rMi2Q" />
+
+        <activity
+            android:name=".Splashscreen"
+            android:label="ZooTan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WebView"
+            android:label="ZooTan" />
+
+        <service
+            android:name=".LocationService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".Peraturan"
+            android:label="ZooTan" />
+        <activity
+            android:name=".Menu"
+            android:label="ZooTan" />
+
+        <activity android:name=".MainActivity"
+            android:label="ZooTan"></activity>
+    </application>
+
+</manifest>
